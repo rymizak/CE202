@@ -192,11 +192,7 @@ then
 	if [ $varname2 = 'X/256' ]
 	then
 		echo "Running Eight Thread (X/256)"
-		perf stat -I 120 -e instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses -x, -o eight_thread_saliency.csv bash parallelsaliency.sh 8 5
-		python ~/pmu-tools/interval-normalize.py eight_thread_saliency.csv > eight_thread_saliency_run_D256.csv
-		rm eight_thread_saliency.csv
-		Rscript ./Graph/Graph8X256.R
-		evince Rplots.pdf	
+		bash parallelsaliency.sh 8 5	
 	fi
 fi
 
