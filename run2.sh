@@ -3,6 +3,8 @@
 #varname=$1
 #varname2=$2
 
+sudo export PATH=$PATH:`./deepgaze/deepgaze`
+
 if [ $varname = 'latency' ]
 then
 	pwd
