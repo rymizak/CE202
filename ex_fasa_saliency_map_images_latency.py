@@ -16,7 +16,7 @@
 import numpy as np
 import cv2
 from timeit import default_timer as timer
-from deepgaze.saliency_map import FasaSaliencyMapping 
+from ./deepgaze/deepgaze/saliency_map.py import FasaSaliencyMapping 
 
 def main():
     i=0;
