@@ -15,7 +15,8 @@ if [ $varname = '1-Thread' ]
 then
 	if [ $varname2 = 'X' ]
 	then
-		echo "Running Single Thread (X)"	
+		echo "Running Single Thread (X)"
+		bash parallelsaliency.sh 1 1	
 	fi
 	if [ $varname2 = 'X/4' ]
 	then
