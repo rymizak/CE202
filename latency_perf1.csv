@@ -1,9 +1,29 @@
 Timestamp,instructions,cpu-cycles
-     0.100116831,33911213,22360946
-     0.200298701,20136805,17330916
-     0.300436863,<not counted>,<not counted>
-     0.400588851,<not counted>,<not counted>
-     0.500711317,427754,1011463
-     0.600880248,<not counted>,<not counted>
-     0.701035346,73956,242657
-     0.743752680,3258607,3752584
+     0.100092351,35392785,25539766
+     0.200279187,17916914,14830707
+     0.300451954,<not counted>,<not counted>
+     0.400577444,375076,844882
+     0.500744566,<not counted>,<not counted>
+     0.600898859,<not counted>,<not counted>
+     0.701010925,<not counted>,<not counted>
+     0.801143517,<not counted>,<not counted>
+     0.901282795,<not counted>,<not counted>
+     1.001403024,<not counted>,<not counted>
+     1.101540651,<not counted>,<not counted>
+     1.201674963,<not counted>,<not counted>
+     1.301797089,<not counted>,<not counted>
+     1.401947735,<not counted>,<not counted>
+     1.502069142,<not counted>,<not counted>
+     1.602192093,<not counted>,<not counted>
+     1.702318892,<not counted>,<not counted>
+     1.802437660,<not counted>,<not counted>
+     1.902593459,<not counted>,<not counted>
+     2.002698106,<not counted>,<not counted>
+     2.102811050,<not counted>,<not counted>
+     2.202939645,<not counted>,<not counted>
+     2.303063297,<not counted>,<not counted>
+     2.403215687,<not counted>,<not counted>
+     2.503345835,<not counted>,<not counted>
+     2.603469435,<not counted>,<not counted>
+     2.703590655,<not counted>,<not counted>
+     2.797000890,3517001,4619804

@@ -18,7 +18,7 @@ RUN apt-get upgrade
 RUN apt-get install -y git 
 
 RUN git clone https://github.com/mpatacchiola/deepgaze.git
-RUN git clone https://github.com/rymizak/CE202.git
+#RUN git clone https://github.com/rymizak/CE202.git
 #RUN git clone https://github.com/andikleen/pmu-tools.git
 
 RUN apt install -y  python2.7 python-pip
@@ -39,6 +39,12 @@ RUN cd ./deepgaze && \
 
 #RUN apt install -y linux-tools-generic
 #RUN apt install -y linux-cloud-tools-generic
+
+RUN apt-get install -y parallel
+
+ARG CACHE_DATE=2018-11-16
+
+RUN git clone https://github.com/rymizak/CE202.git
 
 # Make port 80 available to the world outside this container
 EXPOSE 80
