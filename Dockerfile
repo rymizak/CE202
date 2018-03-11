@@ -9,6 +9,10 @@ FROM ubuntu:16.04
 
 # Install any needed packages specified in requirements.txt
 
+
+RUN apt-get update && \
+      apt-get -y install sudo
+
 RUN apt-get update
 RUN apt-get upgrade
 RUN apt-get install -y git 
@@ -28,9 +32,10 @@ RUN apt install -y  python2.7 python-pip
 RUN pip install numpy
 RUN apt-get install -y libopencv-dev python-opencv
 RUN pip install tensorflow
-RUN apt-get -y install r-base
-
-RUN python ./deepgaze/setup.py install
+#RUN apt-get -y install r-base
+RUN ls ./deepgaze
+RUN cd ./deepgaze && \
+	python ./setup.py install
 
 #RUN apt install -y linux-tools-generic
 #RUN apt install -y linux-cloud-tools-generic

@@ -3,12 +3,12 @@
 #varname=$1
 #varname2=$2
 
-export VARNAME=`./deepgaze/deepgaze`
+cd ./CE202
 
 if [ $varname = 'latency' ]
 then
 	pwd
-	python ./CE202/ex_fasa_saliency_map_images_latency.py
+	python ex_fasa_saliency_map_images_latency.py
 fi
 
 if [ $varname = '1-Thread' ]
