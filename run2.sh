@@ -8,19 +8,7 @@ sh -c 'echo 0 >/proc/sys/kernel/nmi_watchdog'
 
 if [ $varname = 'latency' ]
 then
-	echo "Running First Run of Latency"
-	rm latency_start.csv
-	rm latency_end.csv
-	rm latency_perf1.csv
-	rm latency_time.csv
-	rm latency_loop.csv
-	#perf stat -I 100 -e instructions,cpu-cycles -x, -o latency_perf.csv 
 	python ex_fasa_saliency_map_images_latency.py
-	interval-normalize.py latency_perf.csv > latency_perf1.csv	
-	Rscript ./Graph/GraphLatency.R
-	rm latency_perf.csv
-	evince Rplots.pdf
-	#perf stat -I 100 -e instructions,cpu-cycles -x, -o latency_2.csv bash ex_fasa_saliency_map_images_latency.py
 fi
 
 if [ $varname = '1-Thread' ]
