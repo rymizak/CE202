@@ -1,0 +1,42 @@
+Timestamp,instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses
+     0.078234608,34424501,31975109,112980,358065,377229,22478
+     0.156636204,19896421,16725210,80094,200373,275989,19874
+     0.234797136,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.312955477,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.391132200,391641,866776,5093,9512,21292,2368
+     0.469303438,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.547466797,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.625631585,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.703758944,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.781932453,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.860094014,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.938250238,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.016447255,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.094607759,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.172765014,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.250914808,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.329051003,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.407188583,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.485342943,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.563492922,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.641652552,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.719837820,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.797991766,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.876160478,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.954336268,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.032494098,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.110660688,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.188829904,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.266997360,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.345146246,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.423295264,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.501435147,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.579610691,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.657770512,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.735942541,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.814098254,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.892222552,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.970374694,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.048524522,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.126677308,33848,141150,681,2080,4303,768
+     3.203642372,3283720,4386666,9512,66626,53184,12035
