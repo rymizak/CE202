@@ -9,6 +9,9 @@
 #
 #	Variables to choose from:
 #		
+#		latency (Will plot latency) (Doesn't work in docker since GUI can't pop up in docker)
+#			**spam 'q' while running to close GUI each time for benchmark. (Closes 10 times)
+#		
 #		#-Thread (How many Threads)	X/# (Total Instructions/#)
 #		1-Thread			X
 #		2-Thread			X/4
@@ -20,6 +23,7 @@
 #		bash run.sh 8-Thread X/256  	**10 second runtime
 #		bash run.sh 1-Thread X		**~50 minute runtime
 #		bash run.sh 4-Thread X/16
+#		bash run.sh latency 		** Doesn't work in docker
 #
 #	Since I used for-loops on the code in order to get around 1-10T instructions, that means that 8-threads at X/256 is running
 #	the program in 1-loop. That also means that 1-thread at X will need 2048-loops at the minumu which is around 23T instructions.
