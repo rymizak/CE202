@@ -59,9 +59,9 @@ def main():
         original_images_stack = np.hstack((image_1, image_2, image_3, image_4))
         saliency_images_stack = np.hstack((image_salient_1, image_salient_2, image_salient_3, image_salient_4))
         saliency_images_stack = np.dstack((saliency_images_stack,saliency_images_stack,saliency_images_stack))
-        cv2.imshow("Original-Saliency", np.vstack((original_images_stack, saliency_images_stack)))
+        #cv2.imshow("Original-Saliency", np.vstack((original_images_stack, saliency_images_stack)))
 
-        cv2.destroyAllWindows()
+        #cv2.destroyAllWindows()
 
         #while True:
             #if cv2.waitKey(33) == ord('q'):
