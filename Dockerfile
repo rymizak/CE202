@@ -42,7 +42,7 @@ RUN cd ./deepgaze && \
 
 RUN apt-get install -y parallel
 
-ARG CACHE_DATE=2018-11-16
+ARG CACHE_DATE=2018-5-16
 
 RUN git clone https://github.com/rymizak/CE202.git
 

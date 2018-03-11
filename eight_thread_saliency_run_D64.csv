@@ -1,11 +1,109 @@
 Timestamp,instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses
-     0.781132884,54418377,55433897,203740,671090,757443,60749
-     1.562384110,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     2.343568933,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     3.124749684,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     3.905930193,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     4.687105988,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     5.468283274,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     6.249464053,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     7.030642549,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
-     7.764378002,3587849,4905379,14044,90159,103754,19800
+     0.078116532,34109371,34664652,112334,337641,372322,33423
+     0.156334458,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.234496471,20418087,19653869,81682,224142,279486,21801
+     0.312668000,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.390837051,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.468986951,101903,390761,1511,5829,9390,1330
+     0.547160228,311252,646603,4504,6521,14762,1575
+     0.625315258,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.703490983,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.781662316,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.859829910,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     0.938015199,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.016186135,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.094361004,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.172539056,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.250714825,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.328890806,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.407076580,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.485275512,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.563472712,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.641647355,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.719818213,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.797990541,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.876165087,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     1.954326747,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.032486251,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.110640558,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.188796282,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.266948556,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.345106220,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.423273446,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.501436141,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.579596247,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.657748455,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.735900696,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.814065533,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.892234175,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.970394307,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.048558378,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.126730935,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.204901233,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.283069004,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.361255817,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.439428575,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.517593338,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.595948526,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.674102743,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.752250460,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.830411808,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.908576723,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.986736682,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.064900152,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.143771348,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.227766843,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.307770236,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.385952060,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.464129368,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.542302381,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.620472170,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.698637923,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.776816470,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.854993967,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.933159169,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.011335295,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.089485991,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.167650647,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.245841444,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.324016878,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.402190021,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.480355787,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.558516575,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.636676337,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.714843586,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.793014819,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.871190721,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.949353312,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.027539190,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.105714437,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.183882885,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.262059521,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.340237425,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.418408139,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.496572743,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.574735796,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.652922676,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.731092951,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.809243199,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.887400940,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.965566847,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.043743238,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.121907388,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.200073292,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.278252245,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.356446025,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.434630864,108289,307205,1455,5519,8496,834
+     7.512817686,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.590960974,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.669111359,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.747272612,65690,219421,875,4084,5842,811
+     7.825459572,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.903624372,39119,150966,797,2197,4011,751
+     7.981818289,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     8.060000013,50759,171673,920,2983,4349,744
+     8.138173907,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     8.216319597,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     8.294469739,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     8.372686683,331995,842148,5658,12684,26669,1983
+     8.375183506,3042446,3316017,6634,61683,47906,11427
