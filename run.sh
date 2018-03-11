@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo sh -c 'echo -1 >/proc/sys/kernel/perf_event_paranoid'
-sudo sh -c 'echo 0 >/proc/sys/kernel/nmi_watchdog'
+sh -c 'echo -1 >/proc/sys/kernel/perf_event_paranoid'
+sh -c 'echo 0 >/proc/sys/kernel/nmi_watchdog'
 
 varname=$1
 varname2=$2
@@ -211,7 +211,7 @@ then
 	then
 		echo "Running Eight Thread (X/256)"
 		perf stat -I 120 -e instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses -x, -o eight_thread_saliency.csv bash parallelsaliency.sh 8 5
-		interval-normalize.py eight_thread_saliency.csv > eight_thread_saliency_run_D256.csv
+		python ~/pmu-tools/interval-normalize.py eight_thread_saliency.csv > eight_thread_saliency_run_D256.csv
 		rm eight_thread_saliency.csv
 		Rscript ./Graph/Graph8X256.R
 		evince Rplots.pdf	
@@ -319,7 +319,7 @@ then
 
 	echo "Running Eight Thread (X/256)"
 	perf stat -I 120 -e instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses -x, -o eight_thread_saliency.csv bash parallelsaliency.sh 8 5
-	interval-normalize.py eight_thread_saliency.csv > eight_thread_saliency_run_D256.csv
+	python ~/pmu-tools/interval-normalize.py eight_thread_saliency.csv > eight_thread_saliency_run_D256.csv
 	rm eight_thread_saliency.csv
 
 	Rscript graph.R
