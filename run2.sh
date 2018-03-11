@@ -6,7 +6,7 @@
 if [ $varname = 'latency' ]
 then
 	pwd
-	python ex_fasa_saliency_map_images_latency.py
+	python ./CE202/ex_fasa_saliency_map_images_latency.py
 fi
 
 if [ $varname = '1-Thread' ]
