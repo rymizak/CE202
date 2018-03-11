@@ -27,7 +27,7 @@ then
 	if [ $varname2 = 'X' ]
 	then
 		echo "Running Single Thread (X)"
-		#perf stat -I 100000 -e instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses -x, -o single_thread_saliency.csv bash parallelsaliency.sh 1 1
+		perf stat -I 100000 -e instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses -x, -o single_thread_saliency.csv docker run -e varname=1-Thread -e varname2=X run #bash parallelsaliency.sh 1 1
 		interval-normalize.py single_thread_saliency.csv > single_thread_saliency_run.csv
 		rm single_thread_saliency.csv
 		Rscript ./Graph/Graph1X.R

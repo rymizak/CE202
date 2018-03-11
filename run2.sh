@@ -25,11 +25,7 @@ then
 	if [ $varname2 = 'X/4' ]
 	then
 		echo "Running Single Thread (X/4)"
-		perf stat -I 50000 -e instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses -x, -o single_thread_saliency.csv bash parallelsaliency.sh 1 2
-		interval-normalize.py single_thread_saliency.csv > single_thread_saliency_run_D4.csv
-		rm single_thread_saliency.csv
-		Rscript ./Graph/Graph1X4.R
-		evince Rplots.pdf	
+		bash parallelsaliency.sh 1 2	
 	fi
 	if [ $varname2 = 'X/16' ]
 	then
