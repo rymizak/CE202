@@ -1,7 +1,41 @@
 #!/bin/bash
 
+# Ryan Zakskorn
+# CE 202 Project
+
+# Command to run the project:
+#
+#	'bash run.sh #-Thread X/#'
+#
+#	Variables to choose from:
+#		
+#		#-Thread (How many Threads)	X/# (Total Instructions/#)
+#		1-Thread			X
+#		2-Thread			X/4
+#		4-Thread			X/16
+#		8-Thread			X/64
+#						X/256
+#
+# 	Example:
+#		bash run.sh 8-Thread X/256  	**10 second runtime
+#		bash run.sh 1-Thread X		**~50 minute runtime
+#		bash run.sh 4-Thread X/16
+#
+#	Since I used for-loops on the code in order to get around 1-10T instructions, that means that 8-threads at X/256 is running
+#	the program in 1-loop. That also means that 1-thread at X will need 2048-loops at the minumu which is around 23T instructions.
+#	Sorry about that but I couldn't find a work around since this program is very memory intensive.
+#
+#	Also, running this program in docker doesn't plot the correct graphs. For some reason when running perf outside of docker causes
+#	a lot of missing counters and therefore no points get plotted in the actual runtime of the application. I will also provide a file
+#	setup for running the program outside of docker if you would like to see the program actually run.
+
+
+
+
 sudo sh -c 'echo -1 >/proc/sys/kernel/perf_event_paranoid'
 sudo sh -c 'echo 0 >/proc/sys/kernel/nmi_watchdog'
+
+cd ./CE202
 
 varname=$1
 varname2=$2
@@ -218,5 +252,6 @@ then
 	fi
 fi
 
+cd ..
 
 
