@@ -1,8 +1,10 @@
 #!/bin/bash
 
+sh -c 'echo -1 >/proc/sys/kernel/perf_event_paranoid'
+sh -c 'echo 0 >/proc/sys/kernel/nmi_watchdog'
 
-varname=$1
-varname2=$2
+#varname=$1
+#varname2=$2
 
 if [ $varname = 'latency' ]
 then
@@ -12,7 +14,8 @@ then
 	rm latency_perf1.csv
 	rm latency_time.csv
 	rm latency_loop.csv
-	perf stat -I 100 -e instructions,cpu-cycles -x, -o latency_perf.csv docker run -e varname=latency run
+	#perf stat -I 100 -e instructions,cpu-cycles -x, -o latency_perf.csv 
+	python ex_fasa_saliency_map_images_latency.py
 	interval-normalize.py latency_perf.csv > latency_perf1.csv	
 	Rscript ./Graph/GraphLatency.R
 	rm latency_perf.csv
