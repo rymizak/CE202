@@ -3,7 +3,7 @@
 #varname=$1
 #varname2=$2
 
-sudo export PATH=$PATH:`./deepgaze/deepgaze`
+export VARNAME=`./deepgaze/deepgaze`
 
 if [ $varname = 'latency' ]
 then
