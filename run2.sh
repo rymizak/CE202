@@ -1,13 +1,11 @@
 #!/bin/bash
 
-sh -c 'echo -1 >/proc/sys/kernel/perf_event_paranoid'
-sh -c 'echo 0 >/proc/sys/kernel/nmi_watchdog'
-
 #varname=$1
 #varname2=$2
 
 if [ $varname = 'latency' ]
 then
+	pwd
 	python ex_fasa_saliency_map_images_latency.py
 fi
 
