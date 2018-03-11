@@ -1,0 +1,11 @@
+Timestamp,instructions,cpu-cycles,branch-misses,L1-dcache-load-misses,l2_rqsts.miss,LLC-load-misses
+     0.781132884,54418377,55433897,203740,671090,757443,60749
+     1.562384110,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     2.343568933,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.124749684,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     3.905930193,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     4.687105988,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     5.468283274,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     6.249464053,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.030642549,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>,<not counted>
+     7.764378002,3587849,4905379,14044,90159,103754,19800
