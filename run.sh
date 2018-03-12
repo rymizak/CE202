@@ -32,6 +32,8 @@
 #	Also, running this program in docker doesn't plot the correct graphs. For some reason when running perf outside of docker causes
 #	a lot of missing counters and therefore no points get plotted in the actual runtime of the application. I will also provide a file
 #	setup for running the program outside of docker if you would like to see the program actually run.
+#
+#	Read the ReadMe file for more information
 
 
 
