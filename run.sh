@@ -3,6 +3,8 @@
 # Ryan Zakskorn
 # CE 202 Project
 
+# Project was run on a 2.5GHz Intel Core i7 mid 2014 processor
+
 # Command to run the project:
 #
 #	'bash run.sh #-Thread X/#'
